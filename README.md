@@ -1,3 +1,21 @@
+# humanBodiestoBLOB - or LabelsToBodies
+
+I started this repository to document the development of a cGAN model based on the pix2pixHD by NVidia (see bellow).
+
+This is a model to generate uv maps of human skins with a training set from Tinder profiles with masked colored regions (labels)
+
+
+
+This image bellow is one example of the labeled image from the training set
+
+<img src="imgs/female_pose.png" align="right" width=360>
+
+This image bellow is an example of what kind of blobs are expected to be generated
+
+<img src="imgs/frankfurt_000000_003357_gtFine_labelIds_synthesized_image.jpg" align="right" width=360>
+
+<br><br><br><br>
+
 <img src='imgs/teaser_720.gif' align="right" width=360>
 
 <br><br><br><br>
