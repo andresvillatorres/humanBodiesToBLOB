@@ -1,18 +1,23 @@
 # humanBodiestoBLOB - or LabelsToBodies
 
-I started this repository to document the development of a cGAN model based on the pix2pixHD by NVidia (see bellow).
+I started this repository to document the development of a cGAN model based on the pix2pixHD by NVidia (see the projec bellow).
 
 This is a model to generate uv maps of human skins with a training set from Tinder profiles with masked colored regions (labels)
 
+This repository is based fully on https://github.com/NVIDIA/pix2pixHD
+I did some dependencies changes in order to remove CUDA from the loop and be able to run the implementation on my laptop with osx and no nvidia gpu. I recommend you to avoid this since the performance is really slow. if you don't have a gpu use colab. 
 
+I am preparing the notebook there. You can follow it throgh this link:
+https://colab.research.google.com/drive/1QDiOu4mB9ifsA0hY6Rl0212MJH2ZGX0f
+ 
 
 This image bellow is one example of the labeled image from the training set
 
-<img src="imgs/female_pose.png" align="right" width=540>
+<img src="imgs/female_pose.png" align="center" width=540>
 
 This image bellow is an experiment using the trained network labelsToCities, as an example of what how blobs are expected to  generate human-like entities
 
-<img src="imgs/frankfurt_000000_003357_gtFine_labelIds_synthesized_image.jpg" align="right" width=540>
+<img src="imgs/frankfurt_000000_003357_gtFine_labelIds_synthesized_image.jpg" align="center" width=540>
 
 
 # *************************************
