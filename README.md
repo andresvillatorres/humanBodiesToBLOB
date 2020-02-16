@@ -8,15 +8,17 @@ This is a model to generate uv maps of human skins with a training set from Tind
 
 This image bellow is one example of the labeled image from the training set
 
-<img src="imgs/female_pose.png" align="right" width=360>
+<img src="imgs/female_pose.png" align="right" width=540>
 
 This image bellow is an example of what kind of blobs are expected to be generated
 
-<img src="imgs/frankfurt_000000_003357_gtFine_labelIds_synthesized_image.jpg" align="right" width=360>
+<img src="imgs/frankfurt_000000_003357_gtFine_labelIds_synthesized_image.jpg" align="right" width=540>
+
+
+# *************************************
 
 <br><br><br><br>
 
-<img src='imgs/teaser_720.gif' align="right" width=360>
 
 <br><br><br><br>
 
@@ -27,6 +29,8 @@ Pytorch implementation of our method for high-resolution (e.g. 2048x1024) photor
  [Ting-Chun Wang](https://tcwang0509.github.io/)<sup>1</sup>, [Ming-Yu Liu](http://mingyuliu.net/)<sup>1</sup>, [Jun-Yan Zhu](http://people.eecs.berkeley.edu/~junyanz/)<sup>2</sup>, Andrew Tao<sup>1</sup>, [Jan Kautz](http://jankautz.com/)<sup>1</sup>, [Bryan Catanzaro](http://catanzaro.name/)<sup>1</sup>  
  <sup>1</sup>NVIDIA Corporation, <sup>2</sup>UC Berkeley  
  In CVPR 2018.  
+
+<img src='imgs/teaser_720.gif' align="right" width=360>
 
 ## Image-to-image translation at 2k/1k resolution
 - Our label-to-streetview results
