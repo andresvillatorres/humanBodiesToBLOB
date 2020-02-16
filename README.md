@@ -10,7 +10,7 @@ This image bellow is one example of the labeled image from the training set
 
 <img src="imgs/female_pose.png" align="right" width=540>
 
-This image bellow is an example of what kind of blobs are expected to be generated
+This image bellow is an experiment using the trained network labelsToCities, as an example of what how blobs are expected to  generate human-like entities
 
 <img src="imgs/frankfurt_000000_003357_gtFine_labelIds_synthesized_image.jpg" align="right" width=540>
 
